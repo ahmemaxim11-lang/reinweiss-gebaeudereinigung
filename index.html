@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reinweiß Gebäudereinigung & Service | Moers</title>
+<meta name="description" content="Reinweiß Gebäudereinigung & Service in Moers – Gebäudereinigung, Büro- und Fensterreinigung, Hausmeisterservice, Grünanlagenpflege, Baureinigung und mehr.">
+<meta name="theme-color" content="#063b70">
+<style>
+:root{--navy:#062f57;--blue:#0b72b8;--sky:#1598ef;--ink:#14324d;--muted:#607489;--light:#f3f8fc;--line:#dfeaf3;--white:#fff}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.55;background:#fff}
+a{text-decoration:none;color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 22px}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);border-bottom:1px solid #e7eef4}
+.nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.logo{display:flex;align-items:center;gap:11px;color:var(--navy);font-weight:900}
+.logo-mark{width:48px;height:48px;border-radius:13px;background:linear-gradient(145deg,var(--navy),var(--sky));color:#fff;display:grid;place-items:center;font-size:25px;box-shadow:0 7px 18px #063b7025}
+.logo-title{font-size:21px;line-height:1.05}.logo-sub{display:block;color:var(--blue);font-size:13px;margin-top:3px}
+.menu{display:flex;gap:27px;font-weight:750;font-size:15px}.menu a:hover{color:var(--sky)}
+.call{background:var(--navy);color:#fff;padding:12px 17px;border-radius:10px;font-weight:850;white-space:nowrap}
+.hero{color:#fff;background:radial-gradient(circle at 80% 20%,#1689d8 0,#0a578f 35%,#062f57 75%);overflow:hidden}
+.hero-grid{min-height:600px;display:grid;grid-template-columns:1.03fr .97fr;gap:45px;align-items:center}
+.eyebrow{font-weight:850;letter-spacing:.6px;font-size:14px;color:#cceaff}
+.hero h1{font-size:clamp(44px,6vw,70px);line-height:1.01;margin:16px 0 22px;letter-spacing:-1.5px}
+.hero h1 span{color:#45b1ff}.hero p{font-size:19px;max-width:610px;color:#e9f5ff}
+.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 21px;border-radius:10px;font-weight:850;transition:.2s}.btn:hover{transform:translateY(-2px)}
+.primary{background:var(--sky);color:#fff;box-shadow:0 10px 25px #001e3b35}.ghost{border:2px solid #fff;color:#fff}
+.hero-art{min-height:430px;border-radius:24px;border:1px solid #ffffff30;background:linear-gradient(145deg,#9fc5db 0%,#2d6688 45%,#113a59 100%);box-shadow:0 30px 70px #001b3380;display:flex;align-items:flex-end;justify-content:center;position:relative;overflow:hidden}
+.hero-art:before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 40%,#ffffff1a 40%,#ffffff05 70%);}.cleaner{font-size:145px;filter:drop-shadow(0 15px 18px #001b3366);z-index:1}.art-label{position:absolute;right:20px;bottom:18px;font-size:20px;font-weight:900;font-style:italic;z-index:2}
+.section{padding:82px 0}.head{margin-bottom:31px}.bar{width:46px;height:4px;background:var(--sky);margin-bottom:12px}.head h2{font-size:39px;line-height:1.1;color:var(--navy);margin:0 0 8px}.head p{color:var(--muted);margin:0}
+.services{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.card{background:var(--light);border:1px solid var(--line);border-radius:15px;padding:25px 20px;text-align:center;min-height:185px;transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:0 14px 30px #063b7010}.icon{font-size:35px}.card h3{font-size:17px;color:var(--navy);margin:11px 0 6px}.card p{font-size:14px;color:var(--muted);margin:0}
+.band{background:var(--navy);color:#fff}.band-grid{display:grid;grid-template-columns:1fr 2fr;gap:55px;align-items:center}.band h2{font-size:39px;margin:0 0 10px}.band p{color:#d9ecfb}.band .bar{background:#44adff}.trust{display:grid;grid-template-columns:repeat(5,1fr);gap:18px}.trust-item{text-align:center;font-weight:800}.trust-icon{width:49px;height:49px;border-radius:50%;background:#fff;color:var(--navy);display:grid;place-items:center;margin:0 auto 10px;font-size:21px}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.about-copy h2,.contact-copy h2{font-size:39px;color:var(--navy);margin:0 0 13px}.about-box{background:var(--light);border:1px solid var(--line);border-radius:18px;padding:35px}.signature{font-size:28px;font-style:italic;font-weight:800;color:var(--navy);margin-top:25px}.small{color:var(--muted)}
+.contact{background:#f5f9fd}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:start}.contact-card{background:#fff;border:1px solid var(--line);border-radius:17px;padding:31px;box-shadow:0 15px 35px #063b700a}.row{display:flex;gap:12px;margin:16px 0;font-weight:750}.row .ico{width:25px;color:var(--blue);font-weight:900}.form{margin-top:23px;display:grid;gap:12px}.form input,.form textarea{width:100%;border:1px solid #d5e1eb;border-radius:9px;padding:13px;font:inherit}.form textarea{min-height:120px;resize:vertical}
+.legal{padding:60px 0}.legal-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}.legal-box{border:1px solid var(--line);border-radius:15px;padding:25px;background:#fff}.legal-box h3{color:var(--navy);margin-top:0}
+footer{background:#052a4c;color:#fff;padding:35px 0}.footer{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer small{opacity:.78}
+@media(max-width:900px){.menu{display:none}.hero-grid,.band-grid,.about-grid,.contact-grid,.legal-grid{grid-template-columns:1fr}.hero{padding:25px 0}.hero-art{min-height:300px}.services{grid-template-columns:repeat(2,1fr)}.trust{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.logo-title{font-size:16px}.logo-sub{font-size:11px}.logo-mark{width:42px;height:42px}.call{font-size:13px;padding:10px}.services{grid-template-columns:1fr}.hero h1{font-size:45px}.section{padding:62px 0}.trust{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap nav">
+<a class="logo" href="#start"><div class="logo-mark">✦</div><div><div class="logo-title">Reinweiß</div><span class="logo-sub">Gebäudereinigung & Service</span></div></a>
+<nav class="menu"><a href="#start">Startseite</a><a href="#leistungen">Leistungen</a><a href="#ueber-uns">Über uns</a><a href="#kontakt">Kontakt</a></nav>
+<a class="call" href="tel:+4917632451245">☎ 0176 32451245</a>
+</div>
+</header>
+
+<main>
+<section class="hero" id="start">
+<div class="wrap hero-grid">
+<div>
+<div class="eyebrow">REINWEISS GEBÄUDEREINIGUNG & SERVICE</div>
+<h1>Sauberkeit schafft <span>Wohlbefinden.</span></h1>
+<p>Professionelle Reinigung und zuverlässiger Service für Privatkunden, Büros und Gewerbe in Moers und Umgebung.</p>
+<div class="actions"><a class="btn primary" href="tel:+4917632451245">☎ Jetzt anrufen</a><a class="btn ghost" href="#kontakt">✉ Angebot anfragen</a></div>
+</div>
+<div class="hero-art"><div class="cleaner">🧑‍🔧</div><div class="art-label">Sauber. Zuverlässig. Professionell.</div></div>
+</div>
+</section>
+
+<section class="section" id="leistungen">
+<div class="wrap"><div class="head"><div class="bar"></div><h2>Unsere Leistungen</h2><p>Alles aus einer Hand – für ein sauberes und gepflegtes Umfeld.</p></div>
+<div class="services">
+<div class="card"><div class="icon">🏠</div><h3>Gebäudereinigung</h3><p>Saubere Gebäude und gepflegte Räume.</p></div>
+<div class="card"><div class="icon">🏢</div><h3>Büroreinigung</h3><p>Sauberkeit für ein angenehmes Arbeitsumfeld.</p></div>
+<div class="card"><div class="icon">▣</div><h3>Fensterreinigung</h3><p>Klare Sicht und saubere Glasflächen.</p></div>
+<div class="card"><div class="icon">🛠</div><h3>Hausmeisterservice</h3><p>Zuverlässige Unterstützung rund ums Objekt.</p></div>
+<div class="card"><div class="icon">🌿</div><h3>Grünanlagenpflege</h3><p>Gepflegte Außenbereiche und Grünflächen.</p></div>
+<div class="card"><div class="icon">🚧</div><h3>Baureinigung</h3><p>Sauberkeit nach Bau- und Renovierungsarbeiten.</p></div>
+<div class="card"><div class="icon">📦</div><h3>Entrümpelungen & Haushaltsauflösungen</h3><p>Schnell, ordentlich und professionell.</p></div>
+<div class="card"><div class="icon">🚚</div><h3>Umzugsservice</h3><p>Praktische Unterstützung beim Umzug.</p></div>
+<div class="card"><div class="icon">🚛</div><h3>Kleintransporte bis 3,5 t</h3><p>Sicher und zuverlässig ans Ziel.</p></div>
+</div></div>
+</section>
+
+<section class="section band">
+<div class="wrap band-grid"><div><div class="bar"></div><h2>Warum Reinweiß?</h2><p>Wir stehen für gründliche Arbeit, Verlässlichkeit und einen persönlichen Ansprechpartner.</p></div>
+<div class="trust">
+<div class="trust-item"><div class="trust-icon">✓</div>Zuverlässig</div>
+<div class="trust-item"><div class="trust-icon">✓</div>Gründlich</div>
+<div class="trust-item"><div class="trust-icon">€</div>Faire Preise</div>
+<div class="trust-item"><div class="trust-icon">●</div>Persönlich</div>
+<div class="trust-item"><div class="trust-icon">⌖</div>Moers & Umgebung</div>
+</div></div>
+</section>
+
+<section class="section" id="ueber-uns">
+<div class="wrap about-grid">
+<div class="about-copy"><div class="bar"></div><h2>Über uns</h2><p><strong>Reinweiß Gebäudereinigung & Service</strong> steht für professionelle Reinigung, zuverlässigen Service und persönliche Betreuung.</p><p>Wir kümmern uns mit Engagement und Sorgfalt um Ihre Immobilie – ob Büro, Praxis, Gewerbe oder Privatwohnung.</p><div class="signature">Ahmad Alammar</div><div class="small">Inhaber</div></div>
+<div class="about-box"><h3>Ihr zuverlässiger Partner</h3><p>Sie möchten ein sauberes und gepflegtes Umfeld ohne Stress? Schreiben Sie uns kurz, was Sie benötigen. Wir melden uns schnell und besprechen die passende Lösung.</p><a class="btn primary" href="#kontakt">Kostenloses Angebot anfragen →</a></div>
+</div>
+</section>
+
+<section class="section contact" id="kontakt">
+<div class="wrap contact-grid">
+<div class="contact-copy"><div class="bar"></div><h2>Kontakt</h2><p>Sie haben Fragen oder möchten ein Angebot? Kontaktieren Sie uns direkt.</p><p><strong>Moers und Umgebung</strong></p></div>
+<div class="contact-card">
+<div class="row"><span class="ico">👤</span><span>Ahmad Alammar</span></div>
+<div class="row"><span class="ico">☎</span><a href="tel:+4917632451245">0176 32451245</a></div>
+<div class="row"><span class="ico">✉</span><a href="mailto:reinweissservice@gmail.com">reinweissservice@gmail.com</a></div>
+<div class="row"><span class="ico">⌖</span><span>Repelener Straße 16, 47441 Moers</span></div>
+<form class="form" action="mailto:reinweissservice@gmail.com" method="post" enctype="text/plain">
+<input name="Name" placeholder="Ihr Name" required>
+<input name="E-Mail" type="email" placeholder="Ihre E-Mail-Adresse" required>
+<textarea name="Nachricht" placeholder="Wobei können wir Ihnen helfen?" required></textarea>
+<button class="btn primary" type="submit">Anfrage per E-Mail senden →</button>
+</form>
+</div>
+</div>
+</section>
+
+<section class="legal">
+<div class="wrap legal-grid">
+<div class="legal-box"><h3>Impressum</h3><p><strong>Reinweiß Gebäudereinigung & Service</strong><br>Inhaber: Ahmad Alammar<br>Repelener Straße 16<br>47441 Moers</p><p>Telefon: 0176 32451245<br>E-Mail: reinweissservice@gmail.com</p><p><strong>Hinweis:</strong> Vor der Veröffentlichung sollten die rechtlich erforderlichen Angaben, insbesondere Steuernummer/USt-IdNr. (falls vorhanden), nochmals ergänzt bzw. geprüft werden.</p></div>
+<div class="legal-box"><h3>Datenschutz</h3><p>Diese Website ist als einfache Informationsseite konzipiert. Beim direkten E-Mail-Kontakt werden die von Ihnen übermittelten Daten zur Bearbeitung Ihrer Anfrage verwendet.</p><p>Die endgültige Datenschutzerklärung sollte vor dem öffentlichen Start an das tatsächlich verwendete Hosting, Kontaktformular und ggf. eingebundene Dienste angepasst werden.</p></div>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap footer"><div><strong>Reinweiß Gebäudereinigung & Service</strong><br><small>Sauber. Zuverlässig. Professionell.</small></div><small>© 2026 Reinweiß Gebäudereinigung & Service</small></div></footer>
+</body></html>
